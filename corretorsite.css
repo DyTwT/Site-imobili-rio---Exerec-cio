@@ -6,7 +6,8 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
   line-height: 1.6;
   background-color: #e6faff;
   color: #333;
@@ -63,29 +64,29 @@ section {
 
 section h1 {
   margin-bottom: 15px;
-  font-size: 28px;
+  font-size: 38px;
 }
 
 section h2 {
-  font-size: 20px;
+  font-size: 21px;
   color: #0b668a;
   margin-bottom: 20px;
 }
 
 section h3{
-    font-size: 18px;
+    font-size: 28px;
     color: #fcfcfc; 
     margin-bottom: 20px;
 }
 
 section h4{
-    font-size: 16px;
+    font-size: 26px;
     color: #1E90FF; /* azul forte */
     margin-bottom: 20px;
 }
 
 section h5{
-    font-size: 14px;
+    font-size: 24px;
     color: #ffffff;
     margin-bottom: 20px;
 }
@@ -124,6 +125,12 @@ section h5{
 }
 
 /* Corretores */
+
+.corretores span{
+  font-weight: bold;
+  color: #1E90FF; /* azul forte */
+}
+
 .corretores img {
   max-width: 300px;
   border-radius: 8px;
