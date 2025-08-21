@@ -1,63 +1,67 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>AluCar</title>
+    <meta name="robots" content="nofollow">
+    <link rel="stylesheet" href="corretorsite.css">
+    <title>Tela Inicial</title>
 </head>
 <body>
-    <header class="nome_empresa"> <!--Cabeçalho-->
-        <p class="alucar">AluCar</p>
-        <section class="capa">
-            <div class="capa_conteudo">
-                <div class="alucar">
-                    <h1>Alucar</h1>
-                    <h2>Aluguel de Carros</h2>
-                </div>
-            </div>
-        </section>
-    </header>
-
-    <section class="sobre"> <!--Sobre-->
-        <h2>Sobre nós</h2>
-        <p> Há 45 anos atuando na área de locação de veículos com segurança e garantia de satisfação. Temos os melhores preços e modelos do mercado.</p>
-        <img src="img1.jpg" alt="carro1"> <img src="img2.jpg" alt="carro2"> <img src="img3.jpg" alt="carro3">
-        <!--Lista-->
-        <li>O compromisso da AluCar é com a qualidade.</li> 
-        <li>Os melhores carros estão aqui!</li>
-        <li>Assistência 24hrs.</li>
+    <header> <!--Cabeçalho-->
+        <img src="logo.png" alt="logo">
+        <nav>
+            <ul> <!--Links-->
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#corretores">Corretores</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header> <!--Fim do cabeçalho-->
+    <!--Início-->
+    <section> 
+        <img src="image.png" alt="Banner imobiliária"> <!--Banner-->
+    </section> 
+    <!--Sobre-->
+    <section id="sobre" class="sobre">
+        <div class="container"></div>
+        <h1>Encontre o imóvel dos seus sonhos</h1>
+        <h2>A mobiliária que te ajuda no sonho do seu imóvel</h2>
+        <img src="imovel-assinatura.jpg" alt="imagem comercial">
+        <p>Há <span>10 anos</span> no ramo temos conquistando a confiança de <span>inúmeros clientes</span>. Isso porque procuramos sempre as melhores condições tanto para quem quer comprar, como para quem quer vender ou alugar. Oferecemos um <span>serviço de qualidade</span> servindo como ponte entre partes interessadas.</p>
+        </div>
     </section>
-
-    <!--Divisão de seção-->
-    <div class="divisao">
-        <h3>Contato</h3>
-    </div>
-
-    <section class="contato"> <!--Contato-->
-        <h4>Análise de cadastro</h4>
-        <p>Preencha os campos abaixo e analisaremos seus dados.<br>Se tudo estiver correto ligaremos para marcar uma visita sua à loja.</p>
-    
-        <!--Formulário-->
-        <form method="post" action="https://www.devmedia.com.br/">
-            <fieldset>
-                
-                <!--Grupo de campos separados-->
-                <legend>Dados Pessoais</legend>
-                <div class="grupo_campo1"> 
-                    <label>Nome</label>
-                    <input type="text" name="nome" placeholder="Digite seu nome" required>                    
-                </div>
-                <div class="grupo_campo1">
-                    <label>Data de Nascimento</label>
-                    <input type="date" name="data_nascimento" required>
-                </div>
-                <div class="grupo_campo1">
-                    <label>Telefone</label>
-                    <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
-                </div>
-            </fieldset>
-        </form>
+    <!--Serviços-->
+    <section id="servicos" class="servicos">
+        <h3>Serviços</h3>
+        <p>Contamos com diversos <span>serviços imobiliários</span> e também prestamos suportes em cada uma das etapas necessárias de cada serviço. Aqui na <span>Imobiliária Santos</span> podemos te ajudar com a seguinte gama de assuntos relativos e imóveis</p>
+        <li>Venda</li>
+        <li>Aluguel</li>
+        <li>Financiamento</li>
+        <li>Parcerias</li>
+    </section>
+    <!--Corretores-->
+    <section id="corretores" class="corretores">
+        <div class="container">
+        <h4>Corretores</h4>
+        <img src="corretores.jpg" alt="Corretor">
+        <p>A <span>Imobiliária Santos</span> consta com um time de profissionais qualificados que têm vários anos de experiência no mercado. Para entrar em contato com um de nossos corretores, basta clicar no link a seguir: <a href="corretores@email.com">Corretores</a></p>
+        </div>
+    </section>
+    <!--Contatos-->
+    <section id="contatos" class="contatos">
+        <div class="container">
+        <h5>Contato</h5>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.1168145531437!2d-43.363467924760506!3d-22.98273154058946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2ed54ec2e1%3A0x4431d262cad1d163!2sAv.%20Ayrton%20Senna%2C%203000%20-%20Barra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022775-003!5e0!3m2!1spt-BR!2sbr!4v1755544409629!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>Se ficou interessado em nos conhecer ou se tiver dúvidas entre em  <span>contato</span> conosco através de um dos telefones abaixo:</p>
+        <ul>
+            <li><a href="+21 99999-9999">Escritório Barra da Tijuca</a></li>
+            <li><a href="+21 88888-8888">Escritório Centro/RJ</a></li>
+            <li><a href="+21 77777-7777">Escritório Méier</a></li>
+        </ul>
+        </div>
     </section>
 </body>
 </html>
